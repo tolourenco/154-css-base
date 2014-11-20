@@ -17,10 +17,28 @@ div.caixa{
 	30px direita , 100px baixo á esquerda */
 	padding:  30px; /*margem "interna" de 30px em cima direita baixo e esquerda */
 	float: left; /* encosta a esquerda*/ 
+	position: relative;
 }
 
  body div.logo{
 	width: 100px;
 	float: right;  /* encosta a direita */
 	clear: left;
+}
+
+.bt{
+	position: absolute;
+	top: 20px;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+
+}
+
+.btright{
+	right: 5px;
+}
+
+.btleft{
+	left: 5px;
 }

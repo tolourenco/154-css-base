@@ -11,14 +11,15 @@ h1{
 
 
 div.caixa{
-	border: 1px dashed red;
-	width:  50%;
-	margin: 50px 30px 100px 120px;
+	border: 1px dashed red; /* rebordo tracejado 1px vermelho */
+	width:  50%; /*largura 50% da área disponivel*/
+	margin: 50px 30px 100px 120px; /* margem 50px em cima , 
+	30px direita , 100px baixo á esquerda */
 	padding:  30px;
-	float: left;
+	float: left; /* encosta a esquerda*/ 
 }
 
 div.logo{
 	width: 100px;
-	float: right;
+	float: right;  /* encosta a direita */
 }

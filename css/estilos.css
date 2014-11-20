@@ -15,8 +15,10 @@ div.caixa{
 	width:  50%;
 	margin: 50px 30px 100px 120px;
 	padding:  30px;
+	float: left;
 }
 
 div.logo{
-	width: 100px
+	width: 100px;
+	float: right;
 }
